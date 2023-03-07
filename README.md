@@ -1,6 +1,6 @@
 # Description
 
-Ubuntu VM Setup for automated android app analyis
+Ubuntu VM Setup for automated android app analysis
 
 # Usage
 
