@@ -11,9 +11,6 @@ sudo apt update && sudo apt full-upgrade -y
 sudo apt install git -y
 sudo apt install sleuthkit -y
 sudo apt install python3-pip -y
-sudo apt install qemu -y
-sudo apt install qemu-utils -y
-
 
 # 2.) Create directory for git dependencies
 rm -rf ~/scripts
@@ -49,3 +46,4 @@ pip install .
 # Install custom python modules
 pip install evidence
 pip install sqlitediff
+pip install lineident
