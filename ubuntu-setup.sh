@@ -6,16 +6,20 @@
 
 sudo apt update && sudo apt full-upgrade -y
 
+
 # 1.) Install dependencies
 
 sudo apt install git -y
 sudo apt install sleuthkit -y
 sudo apt install python3-pip -y
 
+
 # 2.) Create directory for git dependencies
+
 rm -rf ~/scripts
 mkdir ~/scripts
 cd ~/scripts
+
 
 # 3.) Install avdecyrpt to decrypt snapshots
 
@@ -24,6 +28,7 @@ git clone https://faui1-gitlab.cs.fau.de/gaston.pugliese/avdecrypt.git
 cd ~/scripts/avdecrypt
 
 sudo bash install-ubuntu.sh
+
 
 # 3.1) m2crypto version needs to be changed to 0.38.0
 
@@ -43,7 +48,8 @@ cd ~/scripts/dfxml_python
 pip install .
 
 
-# Install custom python modules
+# 5.) Install custom python modules
 pip install evidence
 pip install sqlitediff
 pip install lineident
+pip install fileextractor
