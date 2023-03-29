@@ -52,4 +52,4 @@ pip install .
 pip install evidence
 pip install sqlitediff
 pip install lineident
-pip install fileextractor
+pip install fileextract

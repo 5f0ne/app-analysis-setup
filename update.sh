@@ -1,4 +1,4 @@
 pip install evidence -U
 pip install sqlitediff -U
 pip install lineident -U
-pip install fileextractor -U
+pip install fileextract -U
