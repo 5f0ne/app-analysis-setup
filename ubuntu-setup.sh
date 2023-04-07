@@ -50,6 +50,7 @@ pip install .
 
 # 5.) Install custom python modules
 pip install evidence
+pip install sqliteview
 pip install sqlitediff
 pip install lineident
 pip install fileextract
